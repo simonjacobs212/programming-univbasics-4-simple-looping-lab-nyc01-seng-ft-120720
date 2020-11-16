@@ -5,6 +5,8 @@ def loop_message_five_times(message)
 end
 
 def loop_message_n_times
+  n.times do puts message
+  end
 end
 
 def output_array
