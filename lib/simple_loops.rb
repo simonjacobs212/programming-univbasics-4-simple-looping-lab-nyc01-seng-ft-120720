@@ -18,5 +18,5 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array.map(&:to_s)
+  array.map{|e| e.to_s }
 end
